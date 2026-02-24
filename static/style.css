@@ -1,0 +1,57 @@
+body {
+  background: radial-gradient(circle at top, #f3fafc, #e2eef4 50%, #d2e3ed);
+  color: #0b2545;
+  min-height: 100vh;
+}
+
+h1, h2, h3, .card-title {
+  font-family: "Segoe UI", "Gill Sans", Calibri, sans-serif;
+  font-weight: 600;
+}
+
+.card {
+  border: none;
+  border-radius: 1rem;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.weather-card {
+  background: #f9fbff;
+  border-radius: 0.8rem;
+  padding: 1rem 1.5rem;
+  box-shadow: inset 0 0 20px rgba(13, 35, 58, 0.04);
+}
+
+.plot-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.plot-grid img {
+  width: 100%;
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 25px rgba(10, 20, 40, 0.12);
+  background: white;
+  padding: 0.5rem;
+}
+
+.btn-primary {
+  background-color: #2563eb;
+  border-color: #1d4ed8;
+}
+
+.btn-success {
+  background-color: #059669;
+  border-color: #047857;
+}
+
+@media (max-width: 768px) {
+  .card-body {
+    padding: 1.25rem;
+  }
+}

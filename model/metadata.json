@@ -1,0 +1,33 @@
+{
+  "training_data": "C:\\Users\\harsh\\OneDrive\\Desktop\\Smartinternz Project\\data\\wind_dataset.csv",
+  "feature_columns": [
+    "date",
+    "wind",
+    "ind",
+    "rain",
+    "ind.1",
+    "t.max",
+    "ind.2",
+    "t.min",
+    "t.min.g"
+  ],
+  "target_column": "power_kw",
+  "metrics": {
+    "mae": 72.11737774025282,
+    "rmse": 124.11187904055484,
+    "r2": 0.9781705665277115
+  },
+  "training_timestamp": "2026-02-24T05:22:47.813232Z",
+  "original_columns": [
+    "DATE",
+    "WIND",
+    "IND",
+    "RAIN",
+    "IND.1",
+    "T.MAX",
+    "IND.2",
+    "T.MIN",
+    "T.MIN.G",
+    "POWER_KW"
+  ]
+}
